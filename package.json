@@ -1,0 +1,17 @@
+{
+  "name": "accord-mcp-experiment",
+  "version": "0.1.0",
+  "description": "PoC for GSoC 2026 Accord Project",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
